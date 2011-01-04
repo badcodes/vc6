@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XRZLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yobe\LOCALS~1\Temp\RSP2D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/XRZLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"G:\dos\work\c\xrzlib\src\list.c"
+"G:\dos\work\c\xrzlib\src\string.c"
+"G:\dos\work\c\xrzlib\src\test.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yobe\LOCALS~1\Temp\RSP2D.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\XRZLib.lib"  .\Debug\list.obj .\Debug\string.obj .\Debug\test.obj "
+<h3>Output Window</h3>
+Compiling...
+list.c
+string.c
+test.c
+Creating library...
+
+
+
+<h3>Results</h3>
+XRZLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

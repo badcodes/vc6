@@ -1,0 +1,37 @@
+'------------------------------------------------------------------------------
+'FILE DESCRIPTION: Some Macro put in by Lin
+'------------------------------------------------------------------------------
+
+Sub UnCommentBlock()
+'DESCRIPTION: Un Commet Out a block of text
+
+	Dim win
+	Dim tmpTEXT
+	dim pos
+	set win = ActiveWindow
+
+	if win.type <> "Text" Then
+	  MsgBox "This macro can only be run when a text editor window is active."
+	else
+   		tmpTEXT=ActiveDocument.Selection
+		pos=instr(tmpTEXT,"/*")
+		if pos>0 then tmpTExt=left(tmpTEXT,pos-1) & right(tmpText,len(tmpText)-pos-1)
+		pos=instrrev(tmpTEXT,"*/")
+		if pos>0 then tmpTEXT=left(tmpTEXT,pos-1) & right(tmpTEXT,len(tmpTEXT)-pos-1)
+		ActiveDocument.Selection=tmpTEXT
+	end if
+	'TODO: Put macro code here
+End Sub
+
+Sub CommentBlock()
+'DESCRIPTION: Comment out the text of selection
+
+	Dim win
+	set win = ActiveWindow
+	if win.type <> "Text" Then
+	  MsgBox "This macro can only be run when a text editor window is active."
+	else
+			ActiveDocument.Selection = "/*" + ActiveDocument.Selection + "*/"
+	end if	
+
+End Sub

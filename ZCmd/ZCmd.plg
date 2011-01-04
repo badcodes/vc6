@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ZCmd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yobe\LOCALS~1\Temp\RSP32.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "G:\DOS\WORK\C\XRZLIB\SRC" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/ZCmd.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\dos\work\c\zcmd\src\cd.c"
+"G:\dos\work\c\zcmd\src\cmd.c"
+"G:\dos\work\c\zcmd\src\echo.c"
+"G:\dos\work\c\zcmd\src\exit.c"
+"G:\dos\work\c\zcmd\src\filecmd.c"
+"G:\dos\work\c\zcmd\src\help.c"
+"G:\dos\work\c\zcmd\src\modpath.c"
+"G:\dos\work\c\zcmd\src\printf.c"
+"G:\dos\work\c\zcmd\src\script.c"
+"G:\dos\work\c\zcmd\src\utils.c"
+"G:\dos\work\c\zcmd\src\zcmd.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yobe\LOCALS~1\Temp\RSP32.tmp" 
+Creating temporary file "C:\DOCUME~1\yobe\LOCALS~1\Temp\RSP33.tmp" with contents
+[
+../XRZLib/Debug/xrzlib.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ZCmd.pdb" /debug /machine:I386 /out:"Debug/ZCmd.exe" /pdbtype:sept 
+.\Debug\cd.obj
+.\Debug\cmd.obj
+.\Debug\echo.obj
+.\Debug\exit.obj
+.\Debug\filecmd.obj
+.\Debug\help.obj
+.\Debug\modpath.obj
+.\Debug\printf.obj
+.\Debug\script.obj
+.\Debug\utils.obj
+.\Debug\zcmd.obj
+\WORKSPACE\VC6\XRZLib\Debug\XRZLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\yobe\LOCALS~1\Temp\RSP33.tmp"
+<h3>Output Window</h3>
+Compiling...
+cd.c
+g:\dos\work\c\zcmd\src\cd.c(3) : fatal error C1083: Cannot open include file: 'dir.h': No such file or directory
+cmd.c
+g:\dos\work\c\zcmd\src\cmd.c(31) : warning C4013: 'stricmp' undefined; assuming extern returning int
+echo.c
+g:\dos\work\c\zcmd\src\echo.c(17) : warning C4101: 'var' : unreferenced local variable
+exit.c
+filecmd.c
+g:\dos\work\c\zcmd\src\filecmd.c(28) : warning C4013: 'strcmp' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\filecmd.c(63) : warning C4013: 'strdup' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\filecmd.c(63) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+g:\dos\work\c\zcmd\src\filecmd.c(70) : warning C4013: 'zcmd_run' undefined; assuming extern returning int
+help.c
+g:\dos\work\c\zcmd\src\help.c(62) : warning C4013: 'strlen' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\help.c(63) : warning C4013: 'strcpy' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\help.c(64) : warning C4013: 'strcat' undefined; assuming extern returning int
+modpath.c
+printf.c
+g:\dos\work\c\zcmd\src\printf.c(32) : warning C4013: 'strdup' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\printf.c(32) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+g:\dos\work\c\zcmd\src\printf.c(36) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+g:\dos\work\c\zcmd\src\printf.c(42) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+g:\dos\work\c\zcmd\src\printf.c(49) : warning C4047: '=' : 'char ' differs in levels of indirection from 'void *'
+g:\dos\work\c\zcmd\src\printf.c(56) : warning C4047: '=' : 'char ' differs in levels of indirection from 'void *'
+g:\dos\work\c\zcmd\src\printf.c(63) : warning C4047: '=' : 'char ' differs in levels of indirection from 'void *'
+g:\dos\work\c\zcmd\src\printf.c(70) : warning C4047: '=' : 'char ' differs in levels of indirection from 'void *'
+g:\dos\work\c\zcmd\src\printf.c(79) : warning C4047: '=' : 'char ' differs in levels of indirection from 'void *'
+script.c
+utils.c
+g:\dos\work\c\zcmd\src\utils.c(15) : warning C4013: 'strcpy' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\utils.c(23) : warning C4013: 'strdup' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\utils.c(23) : warning C4047: 'initializing' : 'char *' differs in levels of indirection from 'int '
+g:\dos\work\c\zcmd\src\utils.c(90) : warning C4013: 'strlen' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\utils.c(108) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+g:\dos\work\c\zcmd\src\utils.c(115) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+g:\dos\work\c\zcmd\src\utils.c(129) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+g:\dos\work\c\zcmd\src\utils.c(142) : warning C4013: 'strcat' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\utils.c(145) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+g:\dos\work\c\zcmd\src\utils.c(162) : warning C4101: 'tmp' : unreferenced local variable
+zcmd.c
+g:\dos\work\c\zcmd\src\utils.c(191) : warning C4716: 'list_to_argv' : must return a value
+g:\dos\work\c\zcmd\src\utils.c(194) : warning C4716: 'list_break_word' : must return a value
+g:\dos\work\c\zcmd\src\zcmd.c(77) : warning C4013: 'strcat' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\zcmd.c(88) : warning C4013: 'strcpy' undefined; assuming extern returning int
+g:\dos\work\c\zcmd\src\zcmd.c(90) : warning C4013: 'strlen' undefined; assuming extern returning int
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ZCmd.exe - 1 error(s), 33 warning(s)
+</pre>
+</body>
+</html>

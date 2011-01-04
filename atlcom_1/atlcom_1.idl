@@ -1,0 +1,20 @@
+// atlcom_1.idl : IDL source for atlcom_1.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (atlcom_1.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(E8E0AA63-0F79-4F4D-A2A7-338DE4014251),
+	version(1.0),
+	helpstring("atlcom_1 1.0 Type Library")
+]
+library ATLCOM_1Lib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

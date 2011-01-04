@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1249989436 source:r:\workspace\vc6\wtl_hello\wtl_hello.rc
+	"resource.h"
+	"atlres.h"
+
+1249989436 r:\workspace\vc6\wtl_hello\resource.h
+

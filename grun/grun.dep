@@ -1,0 +1,23 @@
+# Microsoft Developer Studio Generated Dependency File, included by grun.mak
+
+.\grun.cpp : \
+	".\SimpleConfig.h"\
+	
+
+.\grun.rc : \
+	".\grun.ico"\
+	".\small.ico"\
+	
+
+.\SimpleConfig.cpp : \
+	".\SimpleConfig.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\program\develop\platform sdk\feb2003\include\basetsd.h"\
+	"..\..\..\program\develop\platform sdk\feb2003\include\guiddef.h"\
+	"..\..\..\program\develop\platform sdk\feb2003\include\reason.h"\
+	"..\..\..\program\develop\platform sdk\feb2003\include\stralign.h"\
+	"..\..\..\program\develop\platform sdk\feb2003\include\tvout.h"\
+	".\StdAfx.h"\
+	

@@ -1,0 +1,20 @@
+// TESTATL.idl : IDL source for TESTATL.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (TESTATL.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(DFABBCF5-7B59-4ADA-BAA7-FEE7E50B12C5),
+	version(1.0),
+	helpstring("TESTATL 1.0 Type Library")
+]
+library TESTATLLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

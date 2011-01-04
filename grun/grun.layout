@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Win32 Release" />
+	<File name="Shell.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="2570" topLine="33" />
+	</File>
+	<File name="Shell.h" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="SimpleConfig.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="333" topLine="0" />
+	</File>
+	<File name="StdAfx.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="StdAfx.h" open="1" top="0" tabpos="7">
+		<Cursor position="516" topLine="0" />
+	</File>
+	<File name="grun.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="5665" topLine="18" />
+	</File>
+	<File name="grun.rc" open="1" top="0" tabpos="3">
+		<Cursor position="1174" topLine="46" />
+	</File>
+</CodeBlocks_layout_file>

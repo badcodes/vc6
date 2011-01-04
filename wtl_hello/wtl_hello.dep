@@ -1,0 +1,35 @@
+# Microsoft Developer Studio Generated Dependency File, included by wtl_hello.mak
+
+.\stdafx.cpp : \
+	"..\..\..\program\develop\platform sdk\server2003r2\include\basetsd.h"\
+	"..\..\..\program\develop\platform sdk\server2003r2\include\guiddef.h"\
+	"..\..\..\program\develop\platform sdk\server2003r2\include\propidl.h"\
+	"..\..\..\program\develop\platform sdk\server2003r2\include\reason.h"\
+	"..\..\..\program\develop\platform sdk\server2003r2\include\shtypes.h"\
+	"..\..\..\program\develop\platform sdk\server2003r2\include\specstrings.h"\
+	"..\..\..\program\develop\platform sdk\server2003r2\include\stralign.h"\
+	"..\..\..\program\develop\platform sdk\server2003r2\include\tvout.h"\
+	"..\..\..\program\develop\platform sdk\server2003r2\include\winefs.h"\
+	"..\..\..\program\develop\wtl\include\atlapp.h"\
+	"..\..\..\program\develop\wtl\include\atlgdi.h"\
+	"..\..\..\program\develop\wtl\include\atluser.h"\
+	"..\..\..\program\develop\wtl\include\atlwinx.h"\
+	".\stdafx.h"\
+	{$(INCLUDE)}"atlres.h"\
+	
+
+.\wtl_hello.cpp : \
+	"..\..\..\program\develop\platform sdk\server2003r2\include\shldisp.h"\
+	"..\..\..\program\develop\platform sdk\server2003r2\include\shobjidl.h"\
+	"..\..\..\program\develop\wtl\include\atlctrls.h"\
+	"..\..\..\program\develop\wtl\include\atlctrlw.h"\
+	"..\..\..\program\develop\wtl\include\atldlgs.h"\
+	"..\..\..\program\develop\wtl\include\atlframe.h"\
+	".\maindlg.h"\
+	
+
+.\wtl_hello.rc : \
+	".\res\wtl_hello.exe.manifest"\
+	".\res\wtl_hello.ico"\
+	{$(INCLUDE)}"atlres.h"\
+	

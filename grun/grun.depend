@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1250378098 source:r:\workspace\vc6\grun\grun.rc
+	"resource.h"
+	"windows.h"
+	<commctrl.h>
+	<richedit.h>
+
+1250378098 r:\workspace\vc6\grun\resource.h
+
+1250314206 source:r:\workspace\vc6\grun\simpleconfig.cpp
+	"stdafx.h"
+	"SimpleConfig.h"
+
+1250233677 r:\workspace\vc6\grun\stdafx.h
+	<tchar.h>
+	<windows.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<shellapi.h>
+
+1250156494 r:\workspace\vc6\grun\simpleconfig.h
+
+1250155772 source:r:\workspace\vc6\grun\stdafx.cpp
+	"stdafx.h"
+
+1250303581 source:r:\workspace\vc6\grun\shell.cpp
+	<ctype.h>
+	"stdafx.h"
+	"Shell.h"
+
+1250138430 r:\workspace\vc6\grun\shell.h
+
+1250314444 source:r:\workspace\vc6\grun\grun.cpp
+	"stdafx.h"
+	"resource.h"
+	"SimpleConfig.h"
+	"Shell.h"
+
